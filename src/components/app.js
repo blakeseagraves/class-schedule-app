@@ -4,10 +4,16 @@ import CourseLibrary from './courseLibrary';
 export default class App extends Component {
   render() {
     return (
-      <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Redux</h2>
-        <CourseLibrary/>
+      <div className='main-container'>
+        <div className="library">
+          <h1 className="library-header">Course Library</h1>
+          <CourseLibrary/>
+        </div>
+        <div className="schedule">
+          <h1 className="schedule-header">My Schedule</h1>
+
+        </div>
+        
       </div>
     );
   }
