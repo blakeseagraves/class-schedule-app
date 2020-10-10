@@ -21,8 +21,8 @@ class CourseLibrary extends Component {
                     <div className="course__title">{course.title}</div>
                 </div>
                 <a>arrow</a>
-                <a className={`action slot__remove ${course.enrolled ? 'hide__content' : 'show_content'}`} onClick={() => this.props.addCourse(course)} >Add Course</a>
-                <a className={`action slo ${course.enrolled ? 'show_content' : 'hide__content'}`} onClick={() => this.props.removeCourse(course)} >Remove Course</a>
+                <a className={`action slot__remove ${course.enrolled ? 'hide-content' : 'show-content'}`} onClick={() => this.props.addCourse(course)} >Add</a>
+                <a className={`action ${course.enrolled ? 'show-content' : 'hide-content'}`} onClick={() => this.props.removeCourse(course)} >Remove Course</a>
 
             </div>
             <div className="course__description">

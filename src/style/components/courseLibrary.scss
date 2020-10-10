@@ -1,0 +1,12 @@
+.course:hover {
+    background-color: white;
+    box-shadow: 0 2px 10px 0 RGBA(0,0,0,0.3);
+    transition: all .3s ease-in-out;
+}
+
+.course__info {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+}
