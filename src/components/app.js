@@ -11,7 +11,7 @@ export default class App extends Component {
           <CourseLibrary/>
         </div>
         <div className="schedule">
-          <h1 className="schedule-header">My Schedule</h1>
+          <h1 className="schedule__header">My Schedule</h1>
           <Schedule />
         </div>
         
