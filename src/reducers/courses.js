@@ -16,6 +16,7 @@ export default function(state = [], action) {
             ]
         case ADD_COURSE:
             console.log("add clicked")
+           
             return  [
                 ...state.map((course, index) => {
                     if(course == action.payload) {
@@ -24,6 +25,7 @@ export default function(state = [], action) {
                     return course
                 })
             ]
+            }
         case TOGGLE_DESCRIPTION:
             return  [
                 ...state.map((course, index) => {
